@@ -9,7 +9,7 @@ async function main() {
   bot.start(async (ctx) => {
     try {
       ctx.reply(
-        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @botcodes123\n\nSend any terabox link to download.`,
+        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @onrfighterarmy\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
           Markup.button.url(" Channel", "https://t.me/onefighterarmy"),
           Markup.button.url("Report bug", "https://t.me/onefighterarmy"),
